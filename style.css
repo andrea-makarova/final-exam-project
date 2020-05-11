@@ -31,6 +31,7 @@ img.cover {
 
 #Layer_1 {
     width: 40px;
+    padding-bottom: 5%;
 }
 
 .navigation {
@@ -62,11 +63,18 @@ nav a {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 300;
-    font-size: 0.9em;
-    width: 40%;
+    width: 50%;
     display: block;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.nav-small {
+    font-size: 0.7em;
+}
+
+.minus {
+    display: none;
 }
 
 nav {
