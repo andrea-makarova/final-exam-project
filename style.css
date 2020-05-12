@@ -31,10 +31,12 @@ img.cover {
     width: 40px;
 }
 
-#Layer_1 {
+
+#Layer_3 {
     width: 30px;
     padding-bottom: 5%;
     cursor: pointer;
+    margin-top: 30px;
 }
 
 .navigation {
@@ -225,11 +227,62 @@ footer h2 {
     margin-top: 50px;
 }
 
+.body-navigation {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.body-navigation a {
+    color: black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 0.6em;
+}
+
+.body-navigation a.main {
+    color: black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 0.8em;
+    color: #556E37;
+    font-weight: 600;
+    font-size: 0.8em;
+}
 /*template*/
 .mySlides1 img {
     width: 90%;
+    margin-left: 5%;
+}
 
+.mySlides1 h1 {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    font-family: "Selfie";
+    font-weight: 100;
+    color: #556E37;
+    font-size: 1.5em;
+}
 
+.mySlides1 p {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+.mySlides1 {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.mySlides1 a {
+   color: black;
+}
+
+a img.image-template {
+    width: 30px;
+    padding-bottom: 5%;
+    cursor: pointer;
+    margin-top: 30px;
 }
 /*aniimations*/
 

@@ -78,6 +78,7 @@ console.log(post);
         const description = clone1.querySelector("p");
 
 
+
         img1.src = post._embedded["wp:featuredmedia"][0].media_details.sizes.full.source_url;
 
 
@@ -95,3 +96,25 @@ console.log(post);
 }
 
 loadData(Actualities);
+
+const aktuality = document.querySelector(".aktuality");
+const udalosti = document.querySelector(".udalosti");
+
+aktuality.addEventListener("click", openAktuality);
+
+function openAktuality() {
+
+    udalosti.style.display = "none";
+    parent1.style.display = "block";
+
+};
+
+
+udalosti.addEventListener("click", openUdalosti);
+
+function openUdalosti() {
+
+    udalosti.style.display = "block";
+    parent1.style.display = "none";
+
+};
