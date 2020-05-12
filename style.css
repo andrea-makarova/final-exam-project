@@ -32,11 +32,11 @@ img.cover {
 }
 
 
-#Layer_3 {
+#Layer_1 {
     width: 30px;
     padding-bottom: 5%;
     cursor: pointer;
-    margin-top: 30px;
+
 }
 
 .navigation {
@@ -168,6 +168,79 @@ nav {
     font-size: 0.2em;
 }
 
+.program-icon {
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.program h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Selfie";
+    font-weight: 100;
+    color: #556E37;
+    font-size: 1.5em;
+}
+
+.program p {
+    font-size: 0.8em;
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.more {
+    width: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.programs .line {
+    border-bottom: solid 0.5px black;
+    width: 200px;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.programs {
+    background-color: #F7F7F7;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.video-section h1 {
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 5%;
+    font-family: "Selfie";
+    font-weight: 100;
+    color: #556E37;
+    font-size: 1.5em;
+}
+
+.video-section p {
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.video-section {
+     padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+/*footer*/
 footer {
     background-color: #556E37;
     padding-top: 5%;
@@ -204,7 +277,7 @@ footer h2 {
     letter-spacing: 1.5px;
 }
 
-.nav-footer span{
+.nav-footer span {
     border-bottom: solid 1px white;
     width: 50px;
     margin-left: 5%;
@@ -231,6 +304,7 @@ footer h2 {
     margin-top: 10%;
     margin-bottom: 10%;
 }
+
 .body-navigation a {
     color: black;
     margin-top: 2%;
@@ -247,6 +321,7 @@ footer h2 {
     font-weight: 600;
     font-size: 0.8em;
 }
+
 /*template*/
 .mySlides1 img {
     width: 90%;
@@ -269,13 +344,14 @@ footer h2 {
     font-size: 0.8em;
     margin-top: 10px;
 }
+
 .mySlides1 {
     margin-top: 7%;
     margin-bottom: 7%;
 }
 
 .mySlides1 a {
-   color: black;
+    color: black;
 }
 
 a img.image-template {
@@ -284,6 +360,7 @@ a img.image-template {
     cursor: pointer;
     margin-top: 30px;
 }
+
 /*aniimations*/
 
 @keyframes drop-down {
@@ -295,5 +372,3 @@ a img.image-template {
         transform: translateX(0%);
     }
 }
-
-
