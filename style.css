@@ -14,7 +14,6 @@ img.cover-mobile,
 img.cover {
     width: 100%;
     opacity: 0.4;
-
 }
 
 img.cover {
@@ -24,13 +23,12 @@ img.cover {
 .logo {
     position: absolute;
     top: 7px;
-    left: 2%;
+    left: 5%;
     width: 40px;
-    z-index: 3;
 }
 
 #Layer_1 {
-    width: 40px;
+    width: 30px;
     padding-bottom: 5%;
 }
 
@@ -41,20 +39,21 @@ img.cover {
     position: fixed;
     top: 0%;
     left: 0%;
-    z-index: 2;
+    z-index: 1;
+
 }
 
 
-.nav {
+div.nav {
     height: 100%;
     width: 100%;
     background-color: #556E37;
     position: fixed;
     top: 0%;
     left: 0%;
-    z-index: 4;
-
-    /*display: none;*/
+    display: none;
+    z-index: 2;
+    animation: 2s drop-down;
 }
 
 nav a {
@@ -63,21 +62,107 @@ nav a {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 300;
-    width: 50%;
+
     display: block;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-.nav-small {
+.small-nav-1 {
     font-size: 0.7em;
+    display: none;
 }
 
 .minus {
     display: none;
+    cursor: pointer;
 }
 
+.plus {
+    cursor: pointer;
+}
 nav {
-    margin-top: 15%;
+    margin-top: 2%;
     margin-left: 5%;
+}
+
+/*hamburger icon*/
+
+
+.ham {
+    cursor: pointer;
+     position: fixed;
+    top: 1.0%;
+    right: 4%;
+    width: 36px;
+    z-index: 40;
+}
+
+@keyframes drop-down {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.hamRotate.active {
+    transform: rotate(45deg);
+}
+
+.hamRotate180.active {
+    transform: rotate(180deg);
+}
+
+.line {
+    fill: none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke: white;
+    stroke-width: 2;
+    stroke-linecap: round;
+}
+
+.ham1 .top {
+    stroke-dasharray: 40 139;
+}
+
+.ham1 .bottom {
+    stroke-dasharray: 40 180;
+}
+
+.ham1.active .top {
+    stroke-dashoffset: -98px;
+}
+
+.ham1.active .bottom {
+    stroke-dashoffset: -138px;
+}
+
+.cover-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.cover-title {
+    position: absolute;
+    font-family: "Selfie";
+    font-weight: 100;
+    font-size: 2.5em;
+    width: 100%;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.cover-adress {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 0.2em;
 }
