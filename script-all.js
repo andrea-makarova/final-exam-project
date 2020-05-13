@@ -231,7 +231,7 @@ function closeSmallNav5() {
 
 //fetching
 
-let Actualities = "https://andreamakarova.com/wordpress/wp-json/wp/v2/aktualita?_embed&per_page=4";
+let Actualities = "https://andreamakarova.com/wordpress/wp-json/wp/v2/aktualita?_embed&per_page=100";
 const template1 = document.querySelector("#template1").content;
 const parent1 = document.querySelector("#main1");
 
@@ -273,26 +273,4 @@ function show(data) {
 
 loadData(Actualities);
 
-const aktuality = document.querySelector(".aktuality");
-const udalosti = document.querySelector(".udalosti");
 
-aktuality.addEventListener("click", openAktuality);
-
-function openAktuality() {
-
-    udalosti.style.opacity = "0.6";
-     aktuality.style.opacity = "1";
-    parent1.style.display = "block";
-
-};
-
-
-udalosti.addEventListener("click", openUdalosti);
-
-function openUdalosti() {
-
-    aktuality.style.opacity = "0.6";
-    udalosti.style.opacity = "1";
-    parent1.style.display = "none";
-
-};
