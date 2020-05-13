@@ -5,7 +5,11 @@
 }
 
 header {
-    background: black;
+
+    width: 100%;
+    height: auto;
+    padding: 0%;
+
 }
 
 a:hover {
@@ -17,7 +21,7 @@ a:hover {
 img.cover-mobile,
 img.cover {
     width: 100%;
-    opacity: 0.4;
+
 }
 
 img.cover {
@@ -176,6 +180,8 @@ nav {
 
 }
 
+
+
 .program h1 {
     text-align: center;
     margin-top: 10px;
@@ -185,14 +191,52 @@ nav {
     font-size: 1.5em;
 }
 
+
 .program p {
     font-size: 0.8em;
     margin-top: 10px;
     width: 80%;
     margin-left: 10%;
     text-align: center;
+    letter-spacing: 1px;
 }
 
+.programs a {
+    cursor: pointer;
+}
+.odbor {
+     width: 60px;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-top: 40px;
+    grid-area: icon-area;
+}
+
+.grid-container h1{
+    font-family: "Selfie";
+    font-weight: 100;
+    color: #556E37;
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: 1px;
+    grid-area: h1-area;
+
+}
+
+.grid-container p {
+  font-size: 0.8em;
+   color: black;
+    width: 100%;
+    font-weight: 200;
+    grid-area: p-area;
+
+}
+
+.line1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+}
 .more {
     width: 30px;
     display: block;
@@ -201,6 +245,40 @@ nav {
     margin-top: 5%;
 }
 
+.grid-container {
+    display: grid;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    width: 90%;
+    grid-template-columns: 100px auto;
+    grid-template-areas: "icon-area h1-area"
+        "icon-area p-area"
+        ". button-area"
+        ". info-area"
+}
+
+.odbor-more {
+    width: 30px;
+    display: block;
+ cursor: pointer;
+    margin-top: 3%;
+    grid-area: button-area;
+}
+.odbory {
+    margin-top: 10px;
+    margin-left: 0%;
+    font-size: 0.6em;
+
+}
+
+.info {
+    grid-area: info-area;
+}
+.odbory a {
+    color: black;
+    margin: 1%;
+}
 .programs .line {
     border-bottom: solid 0.5px black;
     width: 200px;
@@ -218,6 +296,7 @@ nav {
     padding-bottom: 10%;
 }
 
+
 .video-section h1 {
     margin-top: 10px;
     width: 90%;
@@ -233,12 +312,15 @@ nav {
     margin-top: 10px;
     margin-left: 5%;
     width: 90%;
+    letter-spacing: 1px;
 }
 
 .video-section {
     padding-top: 10%;
     padding-bottom: 10%;
 }
+
+.about {padding-top: 3%;}
 
 /*article*/
 article {
@@ -410,6 +492,7 @@ footer h2 {
     margin-left: 5%;
     font-size: 0.8em;
     margin-top: 10px;
+    letter-spacing: 1px;
 }
 
 .mySlides1 {
