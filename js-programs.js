@@ -229,76 +229,199 @@ function closeSmallNav5() {
 
 };
 
-
-//fetching
-
-let Actualities = "https://andreamakarova.com/wordpress/wp-json/wp/v2/aktualita?_embed&per_page=4";
-const template1 = document.querySelector("#template1").content;
-const parent1 = document.querySelector("#main1");
-
-
-
-function loadData() {
-    fetch(Actualities).then(e => e.json()).then(show);
-}
-
-function show(data) {
-    data.forEach(post => {
-
-        console.log(post);
-
-        //clone
-        const clone1 = template1.cloneNode(true);
-        //populate
-        const img1 = clone1.querySelector("#img1");
-        const title = clone1.querySelector("h1");
-        const description = clone1.querySelector("p");
+//show info
+const more1 = document.querySelector(".more1");
+const more2 = document.querySelector(".more2");
+const more3 = document.querySelector(".more3");
+const info1 = document.querySelector("div.info1");
+const info2 = document.querySelector("div.info2");
+const info3 = document.querySelector("div.info3");
 
 
+more1.addEventListener("click", openInfo1);
 
-        img1.src = post._embedded["wp:featuredmedia"][0].media_details.sizes.full.source_url;
+function openInfo1() {
 
+    if (info1.style.display === "block") {
+        info1.style.display = "none";
+        more1.style.transform = "rotate(360deg)";
 
-        title.textContent = post.title.rendered;
-        description.textContent = post.short_description;
-
-
-        clone1.querySelector("a").href = "article.html?id=" + post.id;
-
-
-
-        //append
-        parent1.appendChild(clone1);
-    });
-}
-
-loadData(Actualities);
+    } else {
+        info1.style.display = "block";
+        more1.style.transform = "rotate(180deg)";
+    }
 
 
+};
 
-//actuality and events
+more2.addEventListener("click", openInfo2);
 
-const aktuality = document.querySelector(".aktuality");
-const udalosti = document.querySelector(".udalosti");
+function openInfo2() {
 
-aktuality.addEventListener("click", openAktuality);
+    if (info2.style.display === "block") {
+        info2.style.display = "none";
+        more2.style.transform = "rotate(360deg)";
 
-function openAktuality() {
+    } else {
+        info2.style.display = "block";
+        more2.style.transform = "rotate(180deg)";
+    }
+};
 
-    udalosti.style.opacity = "0.6";
-     aktuality.style.opacity = "1";
-    parent1.style.display = "block";
+more3.addEventListener("click", openInfo3);
+
+function openInfo3() {
+
+    if (info3.style.display === "block") {
+        info3.style.display = "none";
+        more3.style.transform = "rotate(360deg)";
+
+    } else {
+        info3.style.display = "block";
+        more3.style.transform = "rotate(180deg)";
+    }
+
+
+};
+
+//navigation programs
+const a2a = document.querySelector(".a2a");
+const a2b = document.querySelector(".a2b");
+const a2c = document.querySelector(".a2c");
+const a2d = document.querySelector(".a2d");
+const p2a = document.querySelector(".p2a");
+const p2b = document.querySelector(".p2b");
+const p2c = document.querySelector(".p2c");
+const p2d = document.querySelector(".p2d");
+
+a2a.addEventListener("click", openPa2);
+
+function openPa2() {
+
+    if (p2a.style.display === "block") {
+        p2a.style.display = "none";
+
+    } else {
+        p2a.style.display = "block";
+
+    }
+
 
 };
 
 
-udalosti.addEventListener("click", openUdalosti);
+a2b.addEventListener("click", openPb2);
 
-function openUdalosti() {
+function openPb2() {
 
-    aktuality.style.opacity = "0.6";
-    udalosti.style.opacity = "1";
-    parent1.style.display = "none";
+    if (p2b.style.display === "block") {
+        p2b.style.display = "none";
+
+    } else {
+        p2b.style.display = "block";
+
+    }
+
 
 };
 
+a2c.addEventListener("click", openPc2);
+
+function openPc2() {
+
+    if (p2c.style.display === "block") {
+        p2c.style.display = "none";
+
+    } else {
+        p2c.style.display = "block";
+
+    }
+
+
+};
+
+a2d.addEventListener("click", openPd2);
+
+function openPd2() {
+
+    if (p2d.style.display === "block") {
+        p2d.style.display = "none";
+
+    } else {
+        p2d.style.display = "block";
+
+    }
+
+
+};
+
+
+const a1a = document.querySelector(".a1a");
+const a1b = document.querySelector(".a1b");
+const a1c = document.querySelector(".a1c");
+const a1d = document.querySelector(".a1d");
+const p1a = document.querySelector(".p1a");
+const p1b = document.querySelector(".p1b");
+const p1c = document.querySelector(".p1c");
+const p1d = document.querySelector(".p1d");
+
+a1a.addEventListener("click", openPa1);
+
+function openPa1() {
+
+    if (p1a.style.display === "block") {
+        p1a.style.display = "none";
+
+    } else {
+        p1a.style.display = "block";
+
+    }
+
+
+};
+
+
+a1b.addEventListener("click", openPb1);
+
+function openPb1() {
+
+    if (p1b.style.display === "block") {
+        p1b.style.display = "none";
+
+    } else {
+        p1b.style.display = "block";
+
+    }
+
+
+};
+
+a1c.addEventListener("click", openPc1);
+
+function openPc1() {
+
+    if (p1c.style.display === "block") {
+        p1c.style.display = "none";
+
+    } else {
+        p1c.style.display = "block";
+
+    }
+
+
+};
+
+a1d.addEventListener("click", openPd1);
+
+function openPd1() {
+
+    if (p1d.style.display === "block") {
+        p1d.style.display = "none";
+
+    } else {
+        p1d.style.display = "block";
+
+    }
+
+
+};
