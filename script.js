@@ -86,7 +86,7 @@ console.log(post);
         description.textContent = post.short_description;
 
 
-        console.log(post);
+       clone1.querySelector("a").href = "article.html?id=" + post.id;
 
 
 
