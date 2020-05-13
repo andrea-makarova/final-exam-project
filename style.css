@@ -204,15 +204,16 @@ nav {
 .programs a {
     cursor: pointer;
 }
+
 .odbor {
-     width: 60px;
+    width: 60px;
     cursor: pointer;
     margin-left: 5%;
     margin-top: 40px;
     grid-area: icon-area;
 }
 
-.grid-container h1{
+.grid-container h1 {
     font-family: "Selfie";
     font-weight: 100;
     color: #556E37;
@@ -224,19 +225,14 @@ nav {
 }
 
 .grid-container p {
-  font-size: 0.8em;
-   color: black;
+    font-size: 0.8em;
+    color: black;
     width: 100%;
     font-weight: 200;
     grid-area: p-area;
 
 }
 
-.line1 {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    display: block;
-}
 .more {
     width: 30px;
     display: block;
@@ -258,27 +254,56 @@ nav {
         ". info-area"
 }
 
+.grid-container p {
+    letter-spacing: 1px;
+}
+
 .odbor-more {
     width: 30px;
     display: block;
- cursor: pointer;
+    cursor: pointer;
     margin-top: 3%;
     grid-area: button-area;
 }
+
 .odbory {
-    margin-top: 10px;
+    margin-top: 10%;
+    font-size: 0.8em;
     margin-left: 0%;
-    font-size: 0.6em;
+}
+
+.odbory p {
+    letter-spacing: 1px;
+    font-size: 1em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /*display: none;*/
 
 }
 
 .info {
     grid-area: info-area;
+    margin-top: 5%;
+    display: none;
 }
+
+.info a {
+    text-decoration: none;
+    color: #707070;
+}
+
 .odbory a {
-    color: black;
-    margin: 1%;
+    color: #556E37;
+    margin: 0%;
 }
+
+a.download {
+    text-decoration: none;
+    color: #707070;
+    text-transform: none;
+    display: inline-block;
+}
+
 .programs .line {
     border-bottom: solid 0.5px black;
     width: 200px;
@@ -320,7 +345,9 @@ nav {
     padding-bottom: 10%;
 }
 
-.about {padding-top: 3%;}
+.about {
+    padding-top: 3%;
+}
 
 /*article*/
 article {
@@ -359,7 +386,7 @@ h1.title {
 
 .all-button {
     position: absolute;
-right: 5%;
+    right: 5%;
 }
 
 button {
@@ -469,7 +496,9 @@ footer h2 {
     font-size: 0.8em;
 }
 
-.all {margin-top: 20%;}
+.all {
+    margin-top: 20%;
+}
 
 /*template*/
 .mySlides1 img {
