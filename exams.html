@@ -13,7 +13,7 @@
     <title>Gymnázium Javorová</title>
 </head>
 <header>
-    <img class="cover" src="images/cover.jpg" alt="cover-image">
+    <img class="cover" src="images/cover-students-mobile.jpg" alt="cover-image">
     <div class="navigation"><a href="index.html"><img class="logo" src="images/logo-02.png" alt="logo"></a>
     </div>
     <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="30" onclick="this.classList.toggle('active')">
@@ -22,6 +22,13 @@
         <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
     </svg>
 
+    <div class="cover-container">
+
+        <img class="cover-mobile" src="images/cover-students-mobile.jpg" alt="cover-image">
+        <div class="cover-title">Maturitné skúšky
+
+        </div>
+    </div>
 
 
     <div class="nav">
@@ -54,7 +61,7 @@
             <a>Pre študentov <span class="plus plus2">+</span><span class="minus minus2">-</span></a>
             <div class="small-nav small-nav-2">
                 <a class="nav-small-2" href="rules.html">Školský poriadok</a>
-                <a class="nav-small-2" href="exams.html">Maturitné skúšky</a>
+                <a class="nav-small-2 selected" href="exams.html">Maturitné skúšky</a>
                 <a class="nav-small-2" href="student-council.html">Študentská rada</a>
                 <a class="nav-small-2" href="scholarship.html">Štipendium</a>
                 <a class="nav-small-2" href="counselling.html">Poradenstvo pre študentov</a>
@@ -94,15 +101,16 @@
 
 <body>
 
-    <main id="detail-main">
-        <article>
-            <h1 class="title">Title goes here</h1>
-            <p class="description">Description goes here</p>
+    <div class="body">
 
-        </article>
-    </main>
-    <button onclick="goBack()" class="back-button button">späť</button>
-    <a><button class="all-button button">všetky aktuality</button></a>
+      <p>Všetky aktuálne informácie o maturitných skúškach nájdete na našich edupage stránkach.</p>
+
+        <a target="_blank" href="https://javorka.edupage.org/login/?msg=3"><div class="grid-container1">
+            <img class="icon1" src="images/edupage-13.svg">
+            <h1 class="icon-text1">Prihlásiť sa</h1>
+            </div></a>
+
+        </div>
 
     <footer>
         <div class="contact-footer">
@@ -177,7 +185,7 @@
             </a>
         </div>
         <div class="SoMe-footer">
-            <a target="_blank" href="https://www.facebook.com/javorka16/?epa=SEARCH_BOX"><svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.59 49.4">
+            <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.59 49.4">
                 <defs>
                     <style>
                         .cls-1 {
@@ -191,8 +199,8 @@
                 </defs>
                 <circle class="cls-1" cx="24.79" cy="25.01" r="23.37" />
                 <path class="cls-1" d="M20.48,27.8v11a.71.71,0,0,0,.71.71h5a.71.71,0,0,0,.71-.71v-11a.71.71,0,0,1,.71-.72h3.45a.71.71,0,0,0,.71-.71V21.78a.71.71,0,0,0-.71-.71H27.85a.71.71,0,0,1-.72-.71V17.22a.71.71,0,0,1,.72-.71h3.21a.71.71,0,0,0,.71-.72V11.26a.71.71,0,0,0-.71-.71H26.59s-7,.07-6.19,10.1a.72.72,0,0,1-.72.79l-2.5-.05a.72.72,0,0,0-.72.72v4.22a.72.72,0,0,0,.7.71l2.62.05A.71.71,0,0,1,20.48,27.8Z" />
-                </svg></a>
-             <a target="_blank" href="https://www.youtube.com/channel/UCwWohODc7cMyDUM31UuWzAw"><svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.59 49.4">
+            </svg>
+            <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.59 49.4">
                 <defs>
                     <style>
                         .cls-1 {
@@ -207,16 +215,16 @@
                 <circle class="cls-1" cx="24.79" cy="24.7" r="23.37" />
                 <rect class="cls-1" x="10.06" y="15.05" width="29.46" height="19.3" rx="3.74" />
                 <path class="cls-1" d="M28.76,24.39l-6.05-3.57a.35.35,0,0,0-.53.3v7.15a.35.35,0,0,0,.53.31L28.76,25A.36.36,0,0,0,28.76,24.39Z" />
-                 </svg></a>
+            </svg>
         </div>
         <div class="nav-footer">
             <h2>PRE ŠTUDENTOV</h2>
             <span></span>
             <nav>
-                <a href="edupage.html">Edupage</a>
-                <a href="canteen.html">Školská jedáleň</a>
-                <a href="exams.html">Maturitné skúšky</a>
-                <a href="rules.html">Školský poriadok</a>
+                <a>Edupage</a>
+                <a>Školská jedáleň</a>
+                <a>Maturitné skúšky</a>
+                <a>Školský poriadok</a>
             </nav>
             <h2 class="second-nav">PRE UCHÁDZAČOV</h2>
             <span></span>
@@ -229,7 +237,5 @@
         </div>
 
     </footer>
-    <script src="js-article.js"></script>
     <script src="script.js"></script>
-
 </body></html>

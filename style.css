@@ -11,7 +11,9 @@ header {
     padding: 0%;
 
 }
-
+a {
+    text-decoration: none;
+}
 a:hover {
     opacity: 0.8;
 }
@@ -262,8 +264,8 @@ nav {
 .grid-container {
     display: grid;
     margin-left: 5%;
-    margin-bottom: 10%;
-    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
     width: 90%;
     grid-template-columns: 100px auto;
     grid-template-areas: "icon-area h1-area"
@@ -298,6 +300,12 @@ nav {
 
 }
 
+.info a {
+    text-decoration: none;
+    color: #707070;
+}
+
+
 .odbory a {
     color: #556E37;
     margin: 0%;
@@ -308,13 +316,6 @@ nav {
     grid-area: info-area;
     margin-top: 5%;
     display: none;
-}
-
-
-
-.info a {
-    text-decoration: none;
-    color: #707070;
 }
 
 
@@ -351,8 +352,74 @@ a.download {
     padding-bottom: 10%;
 }
 
-.about {
-    padding-top: 3%;
+/* body-styling*/
+.body h1 {
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 5%;
+    font-family: "Selfie";
+    font-weight: 100;
+    color: #556E37;
+    font-size: 1.5em;
+}
+
+.body h2 {
+     color: #556E37;
+    margin: 0%;
+    cursor: pointer;
+        font-size: 0.8em;
+    margin-left: 5%;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.body p {
+    font-size: 0.8em;
+    margin-left: 5%;
+    width: 90%;
+    letter-spacing: 1px;
+}
+
+
+.body {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.grid-container1 {
+    display: grid;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    width: 90%;
+    grid-template-columns: 100px auto;
+    grid-template-areas: "icon-area h1-area"
+
+}
+
+.icon1 {
+    width: 60px;
+    cursor: pointer;
+    margin-left: 5%;
+    grid-area: icon-area;
+}
+
+h1.icon-text1 {
+    font-family: "Selfie";
+    font-weight: 100;
+    color: #556E37;
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: 1px;
+    grid-area: h1-area;
+    padding-top: 15px;;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+.grid-container1:hover {
+    opacity: 0.8;
 }
 
 /*article*/
@@ -414,6 +481,7 @@ p.description {
 .heading-article {
     font-size: 0.8em;
     color: #556E37;
+
 }
 
 article img {
@@ -481,7 +549,7 @@ footer h2 {
 }
 
 .body-navigation {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 10%;
 }
 
