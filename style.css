@@ -11,9 +11,11 @@ header {
     padding: 0%;
 
 }
+
 a {
     text-decoration: none;
 }
+
 a:hover {
     opacity: 0.8;
 }
@@ -364,10 +366,10 @@ a.download {
 }
 
 .body h2 {
-     color: #556E37;
+    color: #556E37;
     margin: 0%;
     cursor: pointer;
-        font-size: 0.8em;
+    font-size: 0.8em;
     margin-left: 5%;
     text-transform: uppercase;
     font-weight: 300;
@@ -381,6 +383,16 @@ a.download {
     letter-spacing: 1px;
 }
 
+.download1 {
+    text-decoration: none;
+    color: #707070;
+    text-transform: none;
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 0.8em;
+    width: 90%;
+    letter-spacing: 1px;
+}
 
 .body {
     padding-top: 5%;
@@ -413,7 +425,8 @@ h1.icon-text1 {
     font-weight: 100;
     letter-spacing: 1px;
     grid-area: h1-area;
-    padding-top: 15px;;
+    padding-top: 15px;
+    ;
     margin-left: 0%;
     margin-top: 0%;
 }
@@ -453,6 +466,20 @@ h1.title {
     border-radius: 25px;
 }
 
+.button1 {
+    width: 120px;
+    border: solid 1px black;
+    font-family: "Nunito";
+    text-transform: uppercase;
+    font-size: 0.6em;
+    letter-spacing: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 25px;
+    margin-left: 5%;
+    transform: translateY(-100%);
+}
+
 .back-button {
     margin-left: 5%;
 }
@@ -479,9 +506,22 @@ p.description {
 }
 
 .heading-article {
-    font-size: 0.8em;
     color: #556E37;
+    margin: 0%;
+    cursor: pointer;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
 
+.main-heading-article {
+    margin-top: 10px;
+    width: 90%;
+    font-family: "Selfie";
+    font-weight: 100;
+    color: #556E37;
+    font-size: 1.5em;
 }
 
 article img {
@@ -613,7 +653,6 @@ a img.image-template {
     cursor: pointer;
     margin-top: 30px;
 }
-
 
 /*animations*/
 
