@@ -13,7 +13,7 @@
     <title>Gymnázium Javorová</title>
 </head>
 <header>
-
+    <img class="cover" src="images/cover-about-mobile.jpg" alt="cover-image">
     <div class="navigation"><a href="index.html"><img class="logo" src="images/logo-02.png" alt="logo"></a>
     </div>
     <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="30" onclick="this.classList.toggle('active')">
@@ -24,8 +24,9 @@
 
     <div class="cover-container">
 
-        <img class="cover-mobile" src="images/cover-applicants-mobile.jpg" alt="cover-image">
-        <div class="cover-title">Študijné odbory</div>
+        <img class="cover-mobile" src="images/cover-students-mobile.jpg" alt="cover-image">
+        <div class="cover-title">Školský vzdelávací program
+        </div>
     </div>
 
 
@@ -42,6 +43,7 @@
                                 stroke-linejoin: round;
                                 stroke-width: 1.5px;
                             }
+
                         </style>
                     </defs>
                     <circle class="cls-1" cx="24.79" cy="24.81" r="23.37" />
@@ -54,7 +56,7 @@
             <a>Pre uchádzačov <span class="plus plus1">+</span><span class="minus minus1">-</span></a>
             <div class="small-nav small-nav-1">
                 <a class="nav-small-1" href="reasons.html">Prečo študovať u nás?</a>
-                <a class="nav-small-1 selected" href="programs.html">Študijné odbory</a>
+                <a class="nav-small-1" href="programs.html">Študijné odbory</a>
             </div>
             <a>Pre študentov <span class="plus plus2">+</span><span class="minus minus2">-</span></a>
             <div class="small-nav small-nav-2">
@@ -63,11 +65,11 @@
                 <a class="nav-small-2" href="student-council.html">Študentská rada</a>
                 <a class="nav-small-2" href="scholarship.html">Štipendium</a>
                 <a class="nav-small-2" href="counselling.html">Poradenstvo pre študentov</a>
-                <a class="nav-small-2" href="canteen.html">Školská jedáleň</a>
+                <a class="small-nav nav-small-2" href="canteen.html">Školská jedáleň</a>
             </div>
             <a>O škole <span class="plus plus3">+</span><span class="minus minus3">-</span></a>
             <div class="small-nav small-nav-3">
-                <a class="nav-small-3" href="program.html">Školský vzdelávací program</a>
+                <a class="nav-small-3 selected" href="program.html">Školský vzdelávací program</a>
                 <a class="nav-small-3" href="school-council.html">Rada školy</a>
                 <a class="nav-small-3" href="ngo.html">OZ Javorka</a>
                 <a class="nav-small-3" href="staff.html">Pedagogický zbor</a>
@@ -98,75 +100,81 @@
 
 
 <body>
-    <div class="programs1">
-        <div class="grid-container">
-            <img class="odbor" src="images/bilingual-01.svg">
-            <h1 class="odbor-text">Bilingválne štúdium</h1>
-            <p>V prípade, že máš záujem študovať v anglickom jazyku – sme to pravé pre Teba! Naši anglickí lektori ťa naučia všetko o ich rodnom jazyku.</p>
 
-            <img class="odbor-more more1" src="images/more-06.svg">
-            <div id="1id" class="info info1">
+    <div class="body">
+        <p>Štátne vzdelávacie programy vymedzujú všeobecné ciele škôl a kľúčové kompetencie vo vyváženom rozvoji osobnosti žiakov a rámcový obsah vzdelania. Štátne vzdelávacie programy sú východiskom pre vytvorenie školských vzdelávacích programov škôl, kde sa zohľadnia špecifické regionálne podmienky a potreby. Ministerstvo školstva, vedy, výskumu a športu Slovenskej republiky vydalo štátne vzdelávacie programy pre rôzne typy škôl.
+            <br><br>
+            Aktuálne znenie nášho školského vzdelávacieho programu, ako i učebné plány oboch odborov a prislúchajúce poznámky k nim nájdete v priložených dokumentoch:</p><br>
+        <a class="download1" href="documents/%C5%A0kolsk%C3%BD%20vzdel%C3%A1vac%C3%AD%20program,%20Javorka%202019-2020.pdf" download>-Školský vzdelávací program, Javorka 2019-2020.pdf</a>
+        <a class="download1" href="documents/U%C4%8Debn%C3%BD%20pl%C3%A1n%20pre%20bilingv%C3%A1lne%20%C5%A1t%C3%BAdium.pdf" download>-Učebný plán pre bilingválne štúdium.pdf</a>
+        <a class="download1" href="documents/Pozn%C3%A1mky%20k%20UP%20pre%20i%C5%A0kVP%20%E2%80%93%20bilingv%C3%A1lne%20%C5%A1t%C3%BAdium.pdf" download>-Poznámky k UP pre iŠkVP – bilingválne štúdium.pdf</a>
+        <a class="download1" href="documents/U%C4%8Debn%C3%BD%20pl%C3%A1n%20pre%208.%20ro%C4%8Dn%C3%A9%20%C5%A1t%C3%BAdium.pdf" download>-Učebný plán pre 8. ročné štúdium.pdf</a>
+        <a class="download1" href="documents/Pozn%C3%A1mky%20k%20UP%20pre%20pre%20i%C5%A0kVP%20-%208-ro%C4%8Dn%C3%A9%20%C5%A1t%C3%BAdium.pdf" download>-Poznámky k UP pre iŠkVP - 8-ročné štúdium.pdf</a><br><br>
+        <h1>Ponúkame Vám niektoré informácie:</h1>
+        <br>
+        <h2>Kto sme?</h2><br>
+        <p>Sme prvé porevolučné gymnázium na Slovensku s osemročným študijným plánom zameraným na výučbu cudzích jazykov a informatiky. Dosahujeme vynikajúce umiestnenia a získavame ocenenia vo vedomostných súťažiach a predmetových olympiádach. Zapájame sa do väčšiny aktivít v rámci mesta a okolia.</p><br>
+        <h2>Prečo existujeme, čo je naším poslaním?</h2><br>
+        <p>Gymnázium vychováva všestranne rozvinutú osobnosť. Aktívnu, samostatnú a tvorivú. Pripravuje študenta na maturitnú skúšku v súlade s cieľovými požiadavkami na vedomosti maturantov dosiahnutím úplného stredného vzdelania a pripravuje študentov predovšetkým na štúdium na vysokej škole. Naším poslaním je pripraviť študentov na využívanie všetkých informačných zdrojov rozvíjaním ich schopností vyhľadávať, hodnotiť a využívať rôzne zdroje informácií proklamovaním konceptu individuálnej slobody a prístupu k informáciám ako základu pre efektívne a zodpovedné občianstvo.
+        </p><br>
+        <h2>V čom sme iní, ako ostatné školy?</h2><br>
+        <p>Odlišnosťou od iných stredných škôl je, že sa tu kontaktujú 10-roční študenti prím s 19-ročnými študentmi maturitných ročníkov. Prostredie vzájomnej tolerancie a spolupráce je prínosom pre všetky vekové kategórie. Dostávajú tu možnosť už 10-ročné deti vzdelávať sa v intelektuálne vyrovnanom kolektíve. Vzdelanostná úroveň študentov jednotlivých tried umožňuje rýchlejšie napredovanie a dôkladnú prípravu študentov na úspešné zvládnutie prijímacích skúšok na vysoké školy. Naša škola má dobrý kolektív, ktorý je ochotný neustále sa vzdelávať a presadzovať nové trendy vo výchove a vzdelávaní. Významnou súčasťou našej školy je Štátna jazyková škola.
+        </p>
+        <br>
+        <h2>Čo chceme a o čo sa snažíme?</h2><br>
+        <p>Úsilím všetkých pedagógov je, aby žiaci s radosťou chodili do školy, cítili sa v nej dobre, aby boli úspešní v každej životnej situácií, aby robili dobré meno sebe aj škole. Snažíme sa, aby žiaci prežívali v našej škole pestrý a plnohodnotný život bez strachu, drog a násilia. Snažíme sa, aby sme patrili k uznávaným školám v meste i okolí, aby s našou prácou a jej výsledkami boli spokojní všetci partneri školy. Chceme získať čo najviac kvalitných študentov.</p><br>
+        <h2>Čo garantujeme</h2><br>
+        <p>1. Výchovno-vzdelávací proces, ktorý sa zabezpečuje podľa príslušného školského vzdelávacieho programu
+            <br><br>
+            2. Vyučovanie sa realizuje v učebniach.Okrem klasických učební sú k dispozícii aj odborné učebne biológie, chémie, fyziky, informatiky a cudzích jazykov
+            <br><br>
+            3. Mimoriadnu pozornosť venujeme jazykovej príprave. Našim cieľom je, aby náš absolvent aktívne ovládal cudzí jazyk
+            <br><br>
+            4.Pre športové aktivity je k dispozícii telocvičňa, posilňovňa a dve ihriská
 
-                <p>Prvý ročník u nás predstavuje intenzívnu jazykovú prípravu, pričom žiaci sú rozdelení podľa úrovne ovládania anglického jazyka <br><br>
-                    od 2. ročníka sa vyučujú v anglickom jazyku predmety: Anglická literatúra, Geografia, Občianska výchova, Informatika, Umenie a kultúra a v posledných dvoch rokoch pribudnú Globálne štúdiá a Odborná angličtina<br><br>maturita z anglického jazyka je na úrovni C1 – čo predstavuje úroveň štátnej skúšky.<br><br>Z čoho pozostáva štúdium u nás a aké budeš mať ako náš absolvent možnosti, sa dozvieš v aktuálnych oficiálnych dokumentoch v sekcii <a href="program.html">Školský vzdelávací program.</a></p>
-                <nav class="odbory">
-                    <a class="a1a">podanie prihlášky</a>
-                    <p class="p1a">Termín podania prihlášky na Tvojej základnej škole je do 20. februára.</p>
-                    <a class="a1b">kritéria príjmania</a>
-                    <p class="p1b">Ako budú vyzerať prijímačky sa môžeš dočítať na<a class="download" href="documents/Krit%C3%A9ri%C3%A1%20pre%205G_2020.pdf" download> Kritériách prijatia na biligvál</a>.</p>
-                    <a class="a1c">príjmacie konanie</a>
-                    <p class="p1c">Skladá z dvoch častí: psychotest (zistíme tvoje jazykové a študijné predpoklady) a testu z ANJ (učivo základnej školy).</p>
-                    <a class="a1d">dod</a>
-                    <p class="p1d">Určite sa príď pozrieť na Deň otvorených dverí, ktorý každoročne pre záujemcov organizujeme, tam sa dozvieš viac.</p>
-                </nav>
-            </div>
-        </div>
+        </p><br>
+        <h2>Charakteristika</h2><br>
+        <p>Všeobecné stredoškolské vzdelávanie je nevyhnutnou podmienkou na rozvoj intelektuálneho potenciálu a všeobecnú kultivovanosť osobnosti potrebnú na adaptabilitu a na získanie príslušnej kvalifikácie. Jeho poslaním je dosiahnuť všestrannú vzdelanosť, tvorivosť, samostatnosť a adaptabilitu v uvažovaní a konaní mladých ľudí.</p><br>
+        <h2>Poslanie školy</h2><br>
+        <p>
+            1. Vytvárať efektívne prostredie pre výchovu a vzdelávanie, v ktorom by študenti a zamestnanci zažívali pocit úspechu a radosti.
+            <br><br>
+            2. Poskytovať podmienky pre kvalitný vyučovací proces zameraný na prípravu na vysokoškolské štúdium.</p><br>
+        <h2>Hodnotový systém školy</h2><br>
+        <p>1. Sloboda a zodpovednosť<br>
+            2. Dôvera a rast študenta<br>
+            3. Uznanie individuálnych rozdielov medzi študentami<br>
+            4. Otvorenosť k chybám<br>
+            5. Spolupráca<br>
+            6. Učenie sa činnosťou</p><br>
+        <h2>Strategické ciele školy</h2><br>
+        <p>1. V maximálnej miere akceptovať študentom individuálnu profiláciu.<br>
+            2. Humanizácia výchovného a vzdelávacieho procesu.</p><br>
+        <h2>Silnými stránkami našej školy sú:</h2><br>
+        <p>1. Kvalifikovaný pedagogický zbor.<br>
+            2. Vynikajúce umiestňovanie absolventov na vysoké školy.<br>
+            3. Dobrý imidž školy<br>
+            4. Vybavenosť školy výpočtovou a didaktickou technikou.<br>
+            5. Štátna jazyková škola.<br>
+            6. CISCO<br>
+            7. Tvorba školského časopisu.<br>
+            8. Informačne bohatá webová stránka.<br>
+            9. Zaujímavé mimoškolské aktivity.<br>
+            10. Krúžková činnosť.<br>
+            11. Ďalšie vzdelávanie pedagogických pracovníkov.<br>
+            12. Realizácia projektov a grantov.
 
-
-        <div class="grid-container">
-            <img class="odbor" src="images/8-years-02.svg">
-            <h1 class="odbor-text">8-ročné štúdium</h1>
-            <p>Dajte svoje dieťa do inteligenčne vyrovnaného kolektívu, osvojí si kvalitnejšie študijné návyky a zdokonalí sa nielen v cudzích jazykoch, ale aj informatike. </p>
-
-            <img class="odbor-more more2" src="images/more-06.svg">
-            <div id="2id" class="info info2">
-                <p>Milí rodičia!
-
-                    Pýtate sa, prečo by ste mali dať svoje dieťa po 5-tom ročníku ZŠ na 8 – ročné gymnázium? Ponúkame Vám zopár dôvodov, ktoré Vás možno presvedčia…
-                    <br><br>
-                    1. Vaše dieťa sa dostane do kolektívu, ktorý je inteligenčne vyrovnanejší ako na základnej škole.
-                    <br><br>
-                    2. Vaše dieťa sa dostane do kolektívu, v ktorom prevláda pracovná a študijná atmosféra – žiaci napredujú rýchlejším tempom ako na základných školách.<br><br>
-                    3. Vaše dieťa si od skorého veku osvojí kvalitnejšie študijné návyky (pretože sa pohybuje v inteligenčne vyrovnanom prostredí), čo vedie k jeho lepším výsledkom.<br><br>
-                    4. Vaše dieťa bude v bezpečnom prostredí, kde sa nevyskytujú javy ako agresivita, násilie, utláčanie, či v niektorých prípadoch až šikanovanie zo strany netolerantných spolužiakov.<br><br>
-                    Školský vzdelávací program, ako i časovú dotáciu všetkých predmetov počas 8 rokov štúdia si môžete v plnom znení prečítať v sekcii <a>Školský vzdelávací program</a>.
-                    <br><br>
-                    V krátkosti však môžeme zhrnúť, že oproti štátnemu vzdelávaciemu plánu, ako i oproti školskému vzdelávaciemu plánu viacerých základných škôl v meste, ponúkame rozšírené počty hodín informatiky a cudzích jazykov (okrem iných predmetov), pretože si uvedomujeme, že práve toto sú dve základné oblasti, ktoré budú naši absolventi v budúcnosti najviac potrebovať. Od prímy je teda študent odborne vyučovaný v dvoch cudzích jazykoch – v angličtine a v druhom cudzom jazyku (na výber NEJ, TAJ, RUJ) a v informatike.
-                    <br><br>
-                    Zoznam predmetov, ktoré sú dané štátom sme rozšírili o hodiny finančnej, matematickej, prírodovednej a čitateľskej gramotnosti a o samostatný predmet Sieťové technológie, vďaka ktorému môžu naši absolventi získať medzinárodné uznávané certifikáty CISCO a Mikrotik.</p>
-                <nav class="odbory odbory1">
-                    <a class="a2a">podanie prihlášky</a>
-                    <p class="p2a">Termín podania prihlášky na základnej škole je do 10. apríla</p>
-                    <a class="a2b">kritéria príjmania</a>
-                    <p class="p2b">Ako budú vyzerať prijímačky sa môžeš dočítať na<a class="download" href="documents/Krit%C3%A9ri%C3%A1%20pre%208G_2020.pdf" download> Kritériách prijatia na 8-ročné štúdium</a>.</p>
-                    <a class="a2c">príjmacie konanie</a>
-                    <p class="p2c">Prijímacie skúšky: 11. máj 2020 , 14. máj 2020</p>
-                    <a class="a2d">dod</a>
-                    <p class="p2d">Určite sa príď pozrieť na Deň otvorených dverí, ktorý každoročne pre záujemcov organizujeme, tam sa dozvieš viac.</p>
-                </nav>
-            </div>
-        </div>
-
-        <div class="grid-container">
-            <img class="odbor" src="images/change-05.svg">
-            <h1 class="odbor-text">Prestupy</h1>
-            <p>Prestala ťa baviť tvoje škola? Chceš byť súčaťou praiteľského kolektívu? Alebo chceš rozvinúť svoje jazykové či informatické schopnosti? Potom je Javorka školou pre teba. </p>
-
-            <img class="odbor-more more3" src="images/more-06.svg">
-            <div id="3id" class="info info3">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-        </div>
+        </p><br>
+        <h1>Profil absolventa</h1><br>
+        <h2>Absolvent našej školy bude:</h2><br>
+        <p>1. Mať komunikačné schopnosti a spôsobilosti – to znamená, dokáže sa ústne a písomne vyjadrovať, vysvetľovať, čítať s porozumením, vyhľadávať, uchovávať a používať informácie, tvoriť informácie, a to aj v cudzích jazykoch.
+            <br><br>
+            2. Mať personálne a interpersonálne schopnosti – t.j. Bude spôsobilý zdokonaľovať svoju výkonnosť, bude schopný racionálne a samostatne sa celý život vzdelávať, učiť sa, kontrolovať, regulovať svoje správanie, pracovať v tíme, starať sa o svoje zdravie a životné prostredie, bude schopný uznávať ľudské práva a slobody.
+            <br><br>
+            3. Mať schopnosti tvorivo a kriticky riešiť problémy – t. J. Identifikovať ich, analyzovať, navrhovať riešenia, spätne ich zhodnocovať a učiť sa z nich, vedieť pracovať aj v náročných, záťažových podmienkach, pracovať s modernými informačnými technológiami t. J. S osobným počítačom, internetom schopný formovať občiansku spoločnosť – ide o schopnosť občanov prispievať na miestnej, štátnej, európskej i globálnej úrovni k rozvíjaniu demokratického systému spoločnosti, k trvale udržateľnému hospodárskemu a sociálnemu rozvoju štátu so zodpovednosťou voči životnému prostrediu a zachovaniu života na Zemi.
+            <br><br>
+            Hlavným kritériom pre nás bude spokojnosť žiakov, rodičov , učiteľov a kvalitné výsledky študentov na súťažiach a prijímacích pohovoroch na vysoké školy.
+        </p>
 
     </div>
 
@@ -183,6 +191,7 @@
                                 stroke-linejoin: round;
                                 stroke-width: 1.5px;
                             }
+
                         </style>
                     </defs>
                     <circle class="cls-1" cx="24.79" cy="25.01" r="23.37" />
@@ -211,6 +220,7 @@
                             .cls-2 {
                                 stroke-miterlimit: 10;
                             }
+
                         </style>
                     </defs>
                     <rect class="cls-1" x="9.13" y="15.88" width="31.33" height="17.85" />
@@ -234,6 +244,7 @@
                                 stroke-linejoin: round;
                                 stroke-width: 1.5px;
                             }
+
                         </style>
                     </defs>
                     <circle class="cls-1" cx="24.79" cy="24.7" r="23.37" />
@@ -253,6 +264,7 @@
                             stroke-linejoin: round;
                             stroke-width: 1.5px;
                         }
+
                     </style>
                 </defs>
                 <circle class="cls-1" cx="24.79" cy="25.01" r="23.37" />
@@ -268,6 +280,7 @@
                             stroke-linejoin: round;
                             stroke-width: 1.5px;
                         }
+
                     </style>
                 </defs>
                 <circle class="cls-1" cx="24.79" cy="24.7" r="23.37" />
@@ -287,7 +300,7 @@
             <h2 class="second-nav">PRE UCHÁDZAČOV</h2>
             <span></span>
             <nav>
-            <a href="programs.html#1id">Bilingválne štúdium</a>
+                <a href="programs.html#1id">Bilingválne štúdium</a>
                 <a href="programs.html#2id">8-ročné štúdium</a>
                 <a href="programs.html#3id">Prestupy</a>
                 <a href="actual-projects.html">Aktivity a projekty</a>
@@ -295,6 +308,7 @@
         </div>
 
     </footer>
-    <script src="js-programs.js"></script>
+    <script src="script.js"></script>
+</body>
 
-</body></html>
+</html>
