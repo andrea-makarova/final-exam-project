@@ -406,9 +406,23 @@ a.download {
     margin-top: 5%;
     width: 90%;
     grid-template-columns: 100px auto;
-    grid-template-areas: "icon-area h1-area"
+    grid-template-areas: "icon-area h1-area";
+
 
 }
+
+.grid-container2 {
+    display: grid;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    width: 90%;
+    grid-template-columns: 100px auto;
+    grid-template-areas: "icon-area a-area";
+
+
+}
+
 
 .icon1 {
     width: 60px;
@@ -425,11 +439,25 @@ h1.icon-text1 {
     font-weight: 100;
     letter-spacing: 1px;
     grid-area: h1-area;
-    padding-top: 15px;
-    ;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: 0%;
-    margin-top: 0%;
 }
+
+
+h2.icon-text1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #556E37;
+    font-size: 0.8em;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    grid-area: a-area;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0%;
+}
+
 
 .grid-container1:hover {
     opacity: 0.8;
@@ -593,6 +621,19 @@ footer h2 {
     margin-bottom: 10%;
 }
 
+.body-navigation1 {
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+.body-navigation1 a {
+    color: black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 0.6em;
+    cursor: pointer;
+}
+
 .body-navigation a {
     color: black;
     margin-top: 2%;
@@ -601,6 +642,16 @@ footer h2 {
 }
 
 .body-navigation a.main {
+    color: black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 0.8em;
+    color: #556E37;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+.body-navigation1 a.main {
     color: black;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -654,10 +705,14 @@ a img.image-template {
     margin-top: 30px;
 }
 
+.gdpr {
+    display: none;
+}
+
 /*template2*/
 .container1 {
-  position: relative;
-  width: 90%;
+    position: relative;
+    width: 90%;
     margin-left: 5%;
     background-color: black;
     cursor: pointer;
@@ -666,43 +721,46 @@ a img.image-template {
 }
 
 #img2 {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .middle1 {
-  transition: .5s ease;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+    transition: .5s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
+
 .container1 #img2 {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 .container1:hover #img2 {
-  opacity: 1;
+    opacity: 1;
 }
 
 .container1 .middle1 {
-  opacity: 1;
+    opacity: 1;
 }
 
 .container1:hover .middle1 {
-  opacity: 0;
+    opacity: 0;
 }
+
 .container1 h1 {
-  color: white;
-  font-size: 2em;
-width: 100%;
+    color: white;
+    font-size: 2em;
+    width: 100%;
     text-align: center;
 }
+
 /*animations*/
 
 @keyframes drop-down {
@@ -721,4 +779,8 @@ width: 100%;
 
 .not-actual {
     opacity: 0.6;
+}
+
+.last {
+    margin-bottom: 0%;
 }

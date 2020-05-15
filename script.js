@@ -275,7 +275,6 @@ function show(data) {
 loadData(Actualities);
 
 
-
 //actuality and events
 
 const aktuality = document.querySelector(".aktuality");
@@ -301,4 +300,7 @@ function openUdalosti() {
     parent1.style.display = "none";
 
 };
+
+
+
 
