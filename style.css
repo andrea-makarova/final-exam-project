@@ -394,6 +394,12 @@ a.download {
     height: auto;
     margin-left: 5%;
 }
+
+p a.download1 {
+    margin-left: 0%;
+    font-size: 1em;
+
+}
 .download1 {
     text-decoration: none;
     color: #707070;
