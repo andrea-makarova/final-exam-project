@@ -232,6 +232,39 @@ function closeSmallNav5() {
 
 //fetching
 
+let Events = "https://andreamakarova.com/wordpress/wp-json/wp/v2/udalost?_embed&per_page=20";
+const template3 = document.querySelector("#template3").content;
+const parent3 = document.querySelector("#main3");
+
+
+
+function loadData3() {
+    fetch(Events).then(e => e.json()).then(show3);
+}
+
+function show3(data3) {
+    data3.forEach(post3 => {
+
+        console.log(post3);
+
+        //clone
+        const clone3 = template3.cloneNode(true);
+        //populate
+
+        const title3 = clone3.querySelector("h2");
+
+        title3.innerHTML= post3.title.rendered;
+
+
+
+
+
+        //append
+        parent3.appendChild(clone3);
+    });
+} loadData3(Events);
+
+
 let Actualities = "https://andreamakarova.com/wordpress/wp-json/wp/v2/aktualita?_embed&per_page=4";
 const template1 = document.querySelector("#template1").content;
 const parent1 = document.querySelector("#main1");
@@ -270,9 +303,8 @@ function show(data) {
         //append
         parent1.appendChild(clone1);
     });
-}
+} loadData(Actualities);
 
-loadData(Actualities);
 
 
 //actuality and events
@@ -287,6 +319,7 @@ function openAktuality() {
     udalosti.style.opacity = "0.6";
      aktuality.style.opacity = "1";
     parent1.style.display = "block";
+     parent3.style.display = "none";
 
 };
 
@@ -298,6 +331,7 @@ function openUdalosti() {
     aktuality.style.opacity = "0.6";
     udalosti.style.opacity = "1";
     parent1.style.display = "none";
+    parent3.style.display = "block";
 
 };
 
