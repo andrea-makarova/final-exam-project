@@ -426,15 +426,3 @@ function openPd1() {
 
 };
 
-//opens specific program
-if (window.location.hash === '#1id') {
-    openInfo1();
-  }
-
-if (window.location.hash === '#2id') {
-    openInfo2();
-  }
-
-if (window.location.hash === '#3id') {
-    openInfo3();
-  }
