@@ -69,7 +69,9 @@ div.nav {
     display: none;
     z-index: 2;
     animation: 2s drop-down;
+    overflow: scroll;
 }
+
 
 
 nav a {
@@ -443,6 +445,8 @@ p a.download1 {
     cursor: pointer;
     margin-left: 5%;
     grid-area: icon-area;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 h1.icon-text1 {
@@ -451,7 +455,6 @@ h1.icon-text1 {
     color: #556E37;
     font-size: 1.5em;
     font-weight: 100;
-    letter-spacing: 1px;
     grid-area: h1-area;
     margin-top: auto;
     margin-bottom: auto;
@@ -472,11 +475,69 @@ h2.icon-text1 {
     margin-left: 0%;
 }
 
+.grid-container1 p {
+    font-size: 0.8em;
+    margin-left: 0%;
+    width: 90%;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: 300;
+}
 
 .grid-container1:hover {
     opacity: 0.8;
 }
 
+.grid-container3 {
+    display: grid;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    width: 90%;
+    grid-template-columns: 100px auto;
+    grid-template-areas: "icon-area div-area";
+
+}
+
+.grid-container3 p {
+    font-size: 0.8em;
+    margin-left: 0%;
+    width: 90%;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: 300;
+}
+
+div.icon-body a {
+    font-size: 0.8em;
+    margin-left: 0%;
+    width: 90%;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: 300;
+}
+
+h1.icon-text2 {
+    font-size: 1.5em;
+    letter-spacing:0px;
+    margin-left: 0%;
+    margin-top: 0%;
+    width: 100%;
+    height: auto;
+
+}
+
+.icon-body {
+    grid-area: div-area;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+
+}
+
+.SoMe-body {
+    margin-top: 10%;
+}
 /*article*/
 article {
     margin-top: 50px;
@@ -817,4 +878,20 @@ a img.image-template {
 
 .last {
     margin-bottom: 0%;
+}
+
+/*map*/
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:90%;
+    margin-left: 5%;
+    position:absolute;
 }
