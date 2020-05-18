@@ -219,12 +219,12 @@ nav a.home {
     font-family: "Selfie";
     font-weight: 100;
     color: #556E37;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 
 .program p {
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-top: 10px;
     width: 80%;
     margin-left: 10%;
@@ -276,7 +276,7 @@ nav a.home {
     font-family: "Selfie";
     font-weight: 100;
     color: #556E37;
-    font-size: 1.5em;
+    font-size: 1.6em;
     font-weight: 100;
     letter-spacing: 1px;
     grid-area: h1-area;
@@ -284,7 +284,7 @@ nav a.home {
 }
 
 .grid-container p {
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: black;
     width: 100%;
     font-weight: 200;
@@ -320,6 +320,7 @@ nav a.home {
     display: block;
     cursor: pointer;
     margin-top: 3%;
+    margin-left: 5%;
     grid-area: button-area;
 }
 
@@ -327,7 +328,7 @@ nav a.home {
 
 .odbory {
     margin-top: 10%;
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-left: 0%;
 }
 
@@ -349,6 +350,7 @@ nav a.home {
 .odbory a {
     color: #556E37;
     margin: 0%;
+    margin-left: 5%;
     cursor: pointer;
 }
 
@@ -376,11 +378,11 @@ a.download {
     font-family: "Selfie";
     font-weight: 100;
     color: #556E37;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 .video-section p {
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-top: 10px;
     margin-left: 5%;
     width: 90%;
@@ -407,14 +409,14 @@ a.download {
     font-family: "Selfie";
     font-weight: 100;
     color: #556E37;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 .body h2 {
     color: #556E37;
     margin: 0%;
     cursor: pointer;
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-left: 5%;
     text-transform: uppercase;
     font-weight: 300;
@@ -422,7 +424,7 @@ a.download {
 }
 
 .body p {
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-left: 5%;
     width: 90%;
     letter-spacing: 1px;
@@ -432,6 +434,11 @@ a.download {
     width: 50px;
     height: auto;
     margin-left: 5%;
+}
+
+h1.black-body {
+    color: black;
+    margin: 0%;
 }
 
 p a.download1 {
@@ -446,7 +453,7 @@ p a.download1 {
     text-transform: none;
     display: inline-block;
     margin-left: 5%;
-    font-size: 0.8em;
+    font-size: 0.9em;
     width: 90%;
     letter-spacing: 1px;
 }
@@ -489,7 +496,7 @@ h1.icon-text1 {
     font-family: "Selfie";
     font-weight: 100;
     color: #556E37;
-    font-size: 1.5em;
+    font-size: 1.6em;
     font-weight: 100;
     grid-area: h1-area;
     margin-top: auto;
@@ -502,7 +509,7 @@ h2.icon-text1 {
     text-transform: uppercase;
     font-weight: 300;
     color: #556E37;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: 100;
     letter-spacing: 1.5px;
     grid-area: a-area;
@@ -512,7 +519,7 @@ h2.icon-text1 {
 }
 
 .grid-container1 p {
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-left: 0%;
     width: 90%;
     letter-spacing: 1px;
@@ -536,7 +543,7 @@ h2.icon-text1 {
 }
 
 .grid-container3 p {
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-left: 0%;
     width: 90%;
     letter-spacing: 1px;
@@ -545,7 +552,7 @@ h2.icon-text1 {
 }
 
 div.icon-body a {
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-left: 0%;
     width: 90%;
     letter-spacing: 1px;
@@ -554,7 +561,7 @@ div.icon-body a {
 }
 
 h1.icon-text2 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     letter-spacing: 0px;
     margin-left: 0%;
     margin-top: 0%;
@@ -593,11 +600,11 @@ h1.title {
 }
 
 .button {
-    width: 120px;
+    width: 140px;
     border: solid 1px black;
     font-family: "Nunito";
     text-transform: uppercase;
-    font-size: 0.6em;
+    font-size: 0.7em;
     letter-spacing: 1px;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -607,11 +614,11 @@ h1.title {
 }
 
 .button1 {
-    width: 120px;
+    width: 140px;
     border: solid 1px black;
     font-family: "Nunito";
     text-transform: uppercase;
-    font-size: 0.6em;
+    font-size: 0.7em;
     letter-spacing: 1px;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -642,7 +649,7 @@ button:hover {
 }
 
 p.description {
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-top: 10px;
     margin-left: 5%;
     width: 90%;
@@ -665,7 +672,7 @@ p.description {
     font-family: "Selfie";
     font-weight: 100;
     color: #556E37;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 article img {
@@ -690,7 +697,7 @@ footer {
 footer span {
     color: white;
     font-weight: 100;
-    font-size: 0.8em;
+    font-size: 0.9em;
     letter-spacing: 1px;
     margin-left: 4%;
     position: absolute;
@@ -706,7 +713,7 @@ footer span {
 footer h2 {
 
     color: white;
-    font-size: 0.8em;
+    font-size: 0.9em;
     letter-spacing: 1.5px;
 
 }
@@ -730,7 +737,7 @@ footer h2 {
 .nav-footer a {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-transform: none;
     letter-spacing: 1px;
 
@@ -745,6 +752,10 @@ footer h2 {
     margin-bottom: 0%;
 }
 
+.nav-inside nav.subpage {
+    margin-left: 0%;
+}
+
 .body-navigation1 {
     margin-top: 0%;
     margin-bottom: 5%;
@@ -754,7 +765,7 @@ footer h2 {
     color: black;
     margin-top: 2%;
     margin-bottom: 2%;
-    font-size: 0.6em;
+    font-size: 0.7em;
     cursor: pointer;
 }
 
@@ -762,7 +773,7 @@ footer h2 {
     color: black;
     margin-top: 2%;
     margin-bottom: 2%;
-    font-size: 0.6em;
+    font-size: 0.7em;
     cursor: pointer;
 }
 
@@ -773,7 +784,7 @@ footer h2 {
     font-size: 0.8em;
     color: #556E37;
     font-weight: 600;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .body-navigation1 a.main {
@@ -783,7 +794,7 @@ footer h2 {
     font-size: 0.8em;
     color: #556E37;
     font-weight: 600;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .all {
@@ -803,13 +814,13 @@ footer h2 {
     font-family: "Selfie";
     font-weight: 100;
     color: #556E37;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 .mySlides1 p {
     width: 90%;
     margin-left: 5%;
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-top: 10px;
     letter-spacing: 1px;
 }
@@ -896,7 +907,7 @@ a img.image-template {
     color: black;
     margin: 0%;
     cursor: pointer;
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-left: 5%;
     font-weight: 300;
     letter-spacing: 1px;
@@ -957,7 +968,7 @@ a img.image-template {
     position: absolute;
     font-family: "Selfie";
     font-weight: 100;
-    font-size: 2.5em;
+    font-size: 4em;
     width: 100%;
     color: white;
     top: 50%;
@@ -967,7 +978,8 @@ a img.image-template {
 }
 
 img.logo1 {
-    width: 150px;
+    max-width: 200px;
+    width: 20%;
     z-index: 3;
     display: block;
     position: relative;
@@ -1010,7 +1022,9 @@ img.logo1 {
     z-index: 2;
 }
 
-
+div.nav-inside {
+    display: none;
+}
 
 @media (min-width: 600px) {
 
@@ -1062,6 +1076,13 @@ img.logo1 {
         margin-left: 7%;
 
     }
+
+    .body {display: grid;
+
+         margin-left: 15%;
+        margin-right: 15%;
+    }
+
 }
 
 @media (min-width: 800px) {
@@ -1197,4 +1218,29 @@ img.logo1 {
         padding-left: 5%;
         padding-right: 5%;
     }
+
+    .body {
+         grid-template-columns: 2fr 1fr;
+         margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .body-inside {
+        width: 90%;
+          margin-left: auto;
+        margin-right: 2%;
+        max-width: 700px;
+    }
+     div.nav-inside {
+          margin-left: auto;
+        margin-right: auto;
+         width: 100%;
+         display: block;
+    }
+
 }
+
+
+
+
