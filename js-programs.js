@@ -365,6 +365,7 @@ const p1b = document.querySelector(".p1b");
 const p1c = document.querySelector(".p1c");
 const p1d = document.querySelector(".p1d");
 
+
 a1a.addEventListener("click", openPa1);
 
 function openPa1() {
@@ -372,9 +373,11 @@ function openPa1() {
     if (p1a.style.display === "block") {
         p1a.style.display = "none";
 
+
     } else {
         p1a.style.display = "block";
-
+bold3.style.opacity ="1";
+        bold4.style.opacity ="1";
     }
 
 

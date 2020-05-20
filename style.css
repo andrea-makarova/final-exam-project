@@ -667,6 +667,8 @@ p.description {
     letter-spacing: 1px;
 }
 
+
+
 .heading-article {
     color: #556E37;
     margin: 0%;
@@ -1026,7 +1028,7 @@ img.logo1 {
 .menu-web {
     width: 30px;
     position: fixed;
-    top: 49%;
+    top: 48%;
     left: 1%;
     cursor: pointer;
     z-index: 2;
@@ -1039,7 +1041,8 @@ img.logo1 {
 .mail-web {
     width: 30px;
     position: fixed;
-    top: 49%;
+    top: 48%;
+
     right: 1%;
     z-index: 2;
 }
@@ -1053,21 +1056,21 @@ div.nav-inside {
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
 
 .column {
- flex: 100%;
+    flex: 100%;
     max-width: 100%;
-  padding: 0 4px;
+    padding: 0 4px;
 }
 
 .column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
 }
 
 
@@ -1167,9 +1170,14 @@ div.nav-inside {
     }
 
     .column {
-    flex: 40%;
-    max-width: 100%;
-  }
+        flex: 40%;
+        max-width: 100%;
+    }
+
+    p.full-width {
+        margin-right: 3.5%;
+        margin-left: 3.5%;
+    }
 }
 
 @media (min-width: 800px) {
@@ -1311,6 +1319,12 @@ div.nav-inside {
         padding-right: 5%;
     }
 
+    .grid-container4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
     .body {
         grid-template-columns: 2fr 1fr;
         margin-left: auto;
@@ -1321,6 +1335,15 @@ div.nav-inside {
         grid-template-columns: 2fr 1fr;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .for-download {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+           width: 90%;
+        margin-left: auto;
+        margin-right: 2%;
+        max-width: 700px;
     }
 
     .grid-container {
@@ -1383,7 +1406,15 @@ div.nav-inside {
     }
 
     .column {
-  flex: 25%;
-  max-width: 100%;
-}
+        flex: 25%;
+        max-width: 100%;
+    }
+
+    .body-navigation1 {
+        display: none;
+    }
+
+    .grid-container2 {
+        margin-top: 0%;
+    }
 }
