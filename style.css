@@ -1178,6 +1178,10 @@ div.nav-inside {
         margin-right: 3.5%;
         margin-left: 3.5%;
     }
+
+    .grid-container3 {
+        margin-top: 0%;
+    }
 }
 
 @media (min-width: 800px) {
@@ -1340,9 +1344,9 @@ div.nav-inside {
     .for-download {
         display: grid;
         grid-template-columns: 1fr 1fr;
-           width: 90%;
+        width: 90%;
         margin-left: auto;
-        margin-right: 2%;
+        margin-right: 5%;
         max-width: 700px;
     }
 
@@ -1417,4 +1421,48 @@ div.nav-inside {
     .grid-container2 {
         margin-top: 0%;
     }
+
+     .grid-container3 {
+        margin-top: 13%;
+         margin-bottom: 13%;
+    }
+
+    .top {margin-top: 0%;}
+    .bottom {margin-bottom: 0%;}
+    .body-inside2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "body-contact-area map-responsive-area"
+            "body-contact-area SoMe-body-area";
+
+    }
+
+    .body-contact {
+        grid-area: body-contact-area;
+    }
+
+    .SoMe-body {
+        grid-area: SoMe-body-area;
+        margin-top: auto;
+
+
+    }
+
+    .map-responsive {
+        grid-area: map-responsive-area;
+
+    }
+
+    div.wide-body {
+        display: block;
+        max-width: 1000px;
+
+    }
+
+    .map-responsive iframe {
+    max-height: 250px;
+
+}
+
+
 }
