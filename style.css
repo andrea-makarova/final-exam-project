@@ -1421,13 +1421,19 @@ div.nav-inside {
         margin-top: 0%;
     }
 
-     .grid-container3 {
+    .grid-container3 {
         margin-top: 13%;
-         margin-bottom: 13%;
+        margin-bottom: 13%;
     }
 
-    .top {margin-top: 0%;}
-    .bottom {margin-bottom: 0%;}
+    .top {
+        margin-top: 0%;
+    }
+
+    .bottom {
+        margin-bottom: 0%;
+    }
+
     .body-inside2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -1459,9 +1465,9 @@ div.nav-inside {
     }
 
     .map-responsive iframe {
-    max-height: 250px;
+        max-height: 250px;
 
-}
+    }
 
 
 }
