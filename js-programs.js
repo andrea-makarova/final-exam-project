@@ -1,4 +1,6 @@
 const menu = document.querySelector(".ham");
+const menuWeb = document.querySelector(".menu-web")
+const close = document.querySelector(".close")
 const navigation = document.querySelector(".nav");
 const plus1 = document.querySelector(".plus1");
 const minus1 = document.querySelector(".minus1");
@@ -21,6 +23,7 @@ const minus5 = document.querySelector(".minus5");
 const smallNav5 = document.querySelector(".small-nav-5");
 
 menu.addEventListener("click", openNav);
+menuWeb.addEventListener("click", openNav);
 
 function openNav() {
     if (navigation.style.display === "block") {
@@ -29,6 +32,14 @@ function openNav() {
     } else {
         navigation.style.display = "block";
     }
+
+};
+
+close.addEventListener("click", closeNav);
+
+function closeNav() {
+
+        navigation.style.display = "none";
 
 };
 
