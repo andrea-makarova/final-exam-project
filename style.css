@@ -37,6 +37,21 @@ img.cover {
     width: 40px;
 }
 
+.wrapper {
+
+    width: 20%;
+ margin-left: 40%;
+    transform: translateY(10%);
+}
+
+
+
+path {
+    stroke-dasharray: 1800;
+    opacity: 1;
+    animation: animate 3s cubic-bezier(1, 0, 1, 1);
+}
+
 
 #Layer_1 {
     width: 30px;
@@ -44,6 +59,14 @@ img.cover {
     cursor: pointer;
 
 }
+
+#Layer_4{
+    width: 100%;
+    padding-bottom: 5%;
+    cursor: pointer;
+
+}
+
 
 .navigation {
     width: 100%;
@@ -950,6 +973,32 @@ a img.image-template {
     }
 }
 
+@keyframes animate {
+    0% {
+        opacity: 0;
+        fill: none;
+        stroke-dashoffset: 1800;
+    }
+
+    30% {
+        opacity: 1;
+        fill: none;
+        stroke-dashoffset: 1800;
+    }
+
+    90% {
+        opacity: 1;
+
+        stroke-dashoffset: 0;
+    }
+
+    100% {
+        opacity: 1;
+
+        stroke-dashoffset: 0;
+    }
+}
+
 .selected {
     text-decoration: line-through;
 }
@@ -984,6 +1033,7 @@ a img.image-template {
     position: relative;
     text-align: center;
     color: white;
+    width: 100%;
 }
 
 
