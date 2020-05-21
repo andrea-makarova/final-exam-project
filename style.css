@@ -46,7 +46,7 @@ img.cover {
 
 
 
-path {
+#Layer_4 path {
     stroke-dasharray: 1800;
     opacity: 1;
     animation: animate 3s cubic-bezier(1, 0, 1, 1);
@@ -110,6 +110,7 @@ nav a {
 .small-nav {
     font-size: 0.7em;
     display: none;
+
 }
 
 .minus {
@@ -362,6 +363,7 @@ nav a.home {
     margin-top: 5%;
     margin-bottom: 5%;
     display: none;
+    animation: drop 1s;
 
 }
 
@@ -945,7 +947,7 @@ a img.image-template {
 #main3 {
     display: none;
     margin-bottom: 10%;
-}
+    margin-left: 3%; }
 
 .mySlides3 h2 {
     color: black;
@@ -973,6 +975,19 @@ a img.image-template {
     }
 }
 
+@keyframes drop {
+    from {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+
 @keyframes animate {
     0% {
         opacity: 0;
@@ -980,7 +995,7 @@ a img.image-template {
         stroke-dashoffset: 1800;
     }
 
-    30% {
+    20% {
         opacity: 1;
         fill: none;
         stroke-dashoffset: 1800;
