@@ -1154,7 +1154,7 @@ div.nav-inside {
     }
 
     div.nav {
-        width: 300px;
+        width: 350px;
     }
 
     #main1 {
@@ -1264,9 +1264,6 @@ div.nav-inside {
         display: none;
     }
 
-    div.nav {
-        width: 350px;
-    }
 
     .grid-template-container {
         display: grid;
