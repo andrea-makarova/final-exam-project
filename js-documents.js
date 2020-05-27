@@ -2,22 +2,28 @@ const menu = document.querySelector(".ham");
 const menuWeb = document.querySelector(".menu-web")
 const close = document.querySelector(".close")
 const navigation = document.querySelector(".nav");
+
+const link1 = document.querySelector(".link1");
 const plus1 = document.querySelector(".plus1");
 const minus1 = document.querySelector(".minus1");
 const smallNav1 = document.querySelector(".small-nav-1");
 
+const link2 = document.querySelector(".link2");
 const plus2 = document.querySelector(".plus2");
 const minus2 = document.querySelector(".minus2");
 const smallNav2 = document.querySelector(".small-nav-2");
 
+const link3 = document.querySelector(".link3");
 const plus3 = document.querySelector(".plus3");
 const minus3 = document.querySelector(".minus3");
 const smallNav3 = document.querySelector(".small-nav-3");
 
+const link4 = document.querySelector(".link4");
 const plus4 = document.querySelector(".plus4");
 const minus4 = document.querySelector(".minus4");
 const smallNav4 = document.querySelector(".small-nav-4");
 
+const link5 = document.querySelector(".link5");
 const plus5 = document.querySelector(".plus5");
 const minus5 = document.querySelector(".minus5");
 const smallNav5 = document.querySelector(".small-nav-5");
@@ -35,6 +41,8 @@ function openNav() {
 
 };
 
+
+
 close.addEventListener("click", closeNav);
 
 function closeNav() {
@@ -42,203 +50,97 @@ function closeNav() {
         navigation.style.display = "none";
 
 };
-
-
 //navigation functions
 
-plus1.addEventListener("click", openSmallNav1);
+link1.addEventListener("click", openNav1);
 
-function openSmallNav1() {
-
-    smallNav1.style.display = "block";
-
-    if (minus1.style.display === "inline") {
-        minus1.style.display = "none";
-    } else {
-        minus1.style.display = "inline";
-    }
-    if (plus1.style.display === "none") {
+function openNav1() {
+    if (smallNav1.style.display === "block") {
+        smallNav1.style.display = "none";
+         minus1.style.display = "none";
         plus1.style.display = "inline";
+
     } else {
+        smallNav1.style.display = "block";
+         minus1.style.display = "inline";
         plus1.style.display = "none";
-    }
 
-};
-
-minus1.addEventListener("click", closeSmallNav1);
-
-function closeSmallNav1() {
-
-    smallNav1.style.display = "none";
-
-    if (minus1.style.display === "inline") {
-        minus1.style.display = "none";
-    } else {
-        minus1.style.display = "inline";
-    }
-    if (plus1.style.display === "none") {
-        plus1.style.display = "inline";
-    } else {
-        plus1.style.display = "block";
     }
 
 };
 
 
 
-plus2.addEventListener("click", openSmallNav2);
+link2.addEventListener("click", openNav2);
 
-function openSmallNav2() {
-
-    smallNav2.style.display = "block";
-
-    if (minus2.style.display === "inline") {
-        minus2.style.display = "none";
-    } else {
-        minus2.style.display = "inline";
-    }
-    if (plus2.style.display === "none") {
+function openNav2() {
+    if (smallNav2.style.display === "block") {
+        smallNav2.style.display = "none";
+         minus2.style.display = "none";
         plus2.style.display = "inline";
+
     } else {
+        smallNav2.style.display = "block";
+         minus2.style.display = "inline";
         plus2.style.display = "none";
-    }
 
-};
-
-minus2.addEventListener("click", closeSmallNav2);
-
-function closeSmallNav2() {
-
-    smallNav2.style.display = "none";
-
-    if (minus2.style.display === "inline") {
-        minus2.style.display = "none";
-    } else {
-        minus2.style.display = "inline";
-    }
-    if (plus2.style.display === "none") {
-        plus2.style.display = "inline";
-    } else {
-        plus2.style.display = "block";
     }
 
 };
 
 
-plus3.addEventListener("click", openSmallNav3);
+link3.addEventListener("click", openNav3);
 
-function openSmallNav3() {
-
-    smallNav3.style.display = "block";
-
-    if (minus3.style.display === "inline") {
-        minus3.style.display = "none";
-    } else {
-        minus3.style.display = "inline";
-    }
-    if (plus3.style.display === "none") {
+function openNav3() {
+    if (smallNav3.style.display === "block") {
+        smallNav3.style.display = "none";
+         minus3.style.display = "none";
         plus3.style.display = "inline";
+
     } else {
+        smallNav3.style.display = "block";
+         minus3.style.display = "inline";
         plus3.style.display = "none";
+
     }
 
 };
 
-minus3.addEventListener("click", closeSmallNav3);
+link4.addEventListener("click", openNav4);
 
-function closeSmallNav3() {
-
-    smallNav3.style.display = "none";
-
-    if (minus3.style.display === "inline") {
-        minus3.style.display = "none";
-    } else {
-        minus3.style.display = "inline";
-    }
-    if (plus3.style.display === "none") {
-        plus3.style.display = "inline";
-    } else {
-        plus3.style.display = "block";
-    }
-
-};
-
-plus4.addEventListener("click", openSmallNav4);
-
-function openSmallNav4() {
-
-    smallNav4.style.display = "block";
-
-    if (minus4.style.display === "inline") {
-        minus4.style.display = "none";
-    } else {
-        minus4.style.display = "inline";
-    }
-    if (plus4.style.display === "none") {
+function openNav4() {
+    if (smallNav4.style.display === "block") {
+        smallNav4.style.display = "none";
+         minus4.style.display = "none";
         plus4.style.display = "inline";
+
     } else {
+        smallNav4.style.display = "block";
+         minus4.style.display = "inline";
         plus4.style.display = "none";
-    }
 
-};
-
-minus4.addEventListener("click", closeSmallNav4);
-
-function closeSmallNav4() {
-
-    smallNav4.style.display = "none";
-
-    if (minus4.style.display === "inline") {
-        minus4.style.display = "none";
-    } else {
-        minus4.style.display = "inline";
-    }
-    if (plus4.style.display === "none") {
-        plus4.style.display = "inline";
-    } else {
-        plus4.style.display = "block";
     }
 
 };
 
 
-plus5.addEventListener("click", openSmallNav5);
+link5.addEventListener("click", openNav5);
 
-function openSmallNav5() {
-
-    smallNav5.style.display = "block";
-
-    if (minus5.style.display === "inline") {
-        minus5.style.display = "none";
-    } else {
-        minus5.style.display = "inline";
-    }
-    if (plus5.style.display === "none") {
+function openNav5() {
+    if (smallNav5.style.display === "block") {
+        smallNav5.style.display = "none";
+         minus5.style.display = "none";
         plus5.style.display = "inline";
+
     } else {
+        smallNav5.style.display = "block";
+         minus5.style.display = "inline";
         plus5.style.display = "none";
+
     }
 
 };
 
-minus5.addEventListener("click", closeSmallNav5);
-
-function closeSmallNav5() {
-
-    smallNav5.style.display = "none";
-
-    if (minus5.style.display === "inline") {
-        minus5.style.display = "none";
-    } else {
-        minus5.style.display = "inline";
-    }
-    if (plus5.style.display === "none") {
-        plus5.style.display = "inline";
-    } else {
-        plus5.style.display = "block";
-    }
-
-};
 
 //documents
 
