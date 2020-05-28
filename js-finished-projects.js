@@ -1,4 +1,4 @@
-cconst menu = document.querySelector(".ham");
+const menu = document.querySelector(".ham");
 const menuWeb = document.querySelector(".menu-web")
 const close = document.querySelector(".close")
 const navigation = document.querySelector(".nav");
