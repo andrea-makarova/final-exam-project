@@ -872,6 +872,7 @@ footer h2 {
     font-size: 0.9em;
     margin-top: 10px;
     letter-spacing: 1px;
+    color: black;
 }
 
 .mySlides1 {
@@ -1021,7 +1022,8 @@ a img.image-template {
 }
 
 .selected {
-    text-decoration: line-through;
+    color: black;
+    font-weight: 600;
 }
 
 .not-actual {
@@ -1233,6 +1235,7 @@ div.nav-inside {
     section.mySlides1 {
         margin-top: 0%;
     }
+
 
     main#main1 {
         margin-left: 3%;

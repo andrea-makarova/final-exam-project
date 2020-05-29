@@ -230,7 +230,7 @@ function openAktuality() {
 
     udalosti.style.opacity = "0.6";
      aktuality.style.opacity = "1";
-    parent1.style.display = "block";
+    parent1.style.display = "grid";
      parent3.style.display = "none";
 
 };
