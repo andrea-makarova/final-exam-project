@@ -184,3 +184,15 @@ function show(data) {
 loadData(Albums);
 
 
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3500);
+}
+
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.querySelector("header").style.display = "block";
+    document.querySelectorAll("body").style.display = "block";
+}

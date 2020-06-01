@@ -17,35 +17,14 @@
 <meta name="theme-color" content="#ffffff">
     <title>Gymnázium Javorová - domov</title>
 </head>
-<header translate="yes">
-
-    <div class="navigation"><a href="index.html"><img class="logo" src="images/logo-02.png" alt="logo"></a>
-    </div>
-    <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="30" onclick="this.classList.toggle('active')">
-        <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
-        <path class="line middle" d="m 30,50 h 40" />
-        <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
-    </svg>
-
-    <div class="cover-container">
-
-        <img class="cover-mobile" src="images/cover-mobile.jpg" alt="cover-image">
-        <div class="cover-title">Gymnázium Javorová <div class="cover-adress">javorová 16, spišská nová ves</div>
-        </div>
-    </div>
-
-    <div class="cover-container-pc">
-
-        <img class="cover-pc" src="images/cover-pc.jpg" alt="cover-image-pc">
-
-        <div class="cover-title-pc"><div class="wrapper">
+    <div id="loader"><div class="wrapper">
         <svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 779.29 768.29" style="enable-background:new 0 0 779.29 768.29;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;}
-	.st1{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:1;}
+	.st1{fill:none;stroke:#445400;stroke-width:8;stroke-miterlimit:1;}
 	.st2{fill:none;}
-	.st3{fill:#FFFFFF;}
+	.st3{fill:#445400;}
 </style>
 <g>
 	<g>
@@ -329,7 +308,31 @@
 
 </svg>
 
-</div>Gymnázium Javorová <div class="cover-adress-pc">javorová 16, spišská nová ves</div>
+</div></div>
+
+<header onload="myFunction()" translate="yes">
+
+
+    <div class="navigation"><a href="index.html"><img class="logo none" src="images/logo-plain-04.png" alt="logo"></a>
+    </div>
+    <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="30" onclick="this.classList.toggle('active')">
+        <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+        <path class="line middle" d="m 30,50 h 40" />
+        <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+    </svg>
+
+    <div class="cover-container">
+
+        <img class="cover-mobile" src="images/cover-mobile.jpg" alt="cover-image">
+        <div class="cover-title">Gymnázium Javorová <div class="cover-adress">javorová 16, spišská nová ves</div>
+        </div>
+    </div>
+
+    <div class="cover-container-pc">
+
+        <img class="cover-pc" src="images/cover-pc.jpg" alt="cover-image-pc">
+
+        <div class="cover-title-pc"><img src="images/logo-02.png"><br>Gymnázium Javorová <div class="cover-adress-pc">javorová 16, spišská nová ves</div>
         </div>
 
     </div>
@@ -403,7 +406,7 @@
     </div>
 </header>
 
-<body translate="yes">
+<body onload="myFunction()" translate="yes">
     <div class="grid-template-container">
 
     <nav class="body-navigation">
@@ -468,7 +471,11 @@
             Našou výhodou je aj prítomnosť Jazykovej školy.</p>
         <a href="reasons.html"> <button class="back-button-index button" >viac</button></a><br>
             </div>
-        <video></video>
+        <video controls>
+  <source src="Javorka-video.mp4" type="video/mp4">
+
+</video>
+
 
     </div>
 
@@ -602,6 +609,7 @@
         </div>
 
     </footer>
+
     <script src="script.js"></script>
     <script src="js-programs.js"></script>
-</body></html>
+        </body></html>

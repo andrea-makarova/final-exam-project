@@ -28,6 +28,7 @@ const plus5 = document.querySelector(".plus5");
 const minus5 = document.querySelector(".minus5");
 const smallNav5 = document.querySelector(".small-nav-5");
 
+
 menu.addEventListener("click", openNav);
 menuWeb.addEventListener("click", openNav);
 
@@ -51,6 +52,7 @@ function closeNav() {
 
 };
 //navigation functions
+
 
 link1.addEventListener("click", openNav1);
 
@@ -341,6 +343,8 @@ function openPd1() {
 
 };
 
+
+
 //opens specific program
 if (window.location.hash === '#1id') {
     openInfo1();
@@ -353,3 +357,16 @@ if (window.location.hash === '#2id') {
 if (window.location.hash === '#3id') {
     openInfo3();
   }
+
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3500);
+}
+
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.querySelector("header").style.display = "block";
+    document.querySelectorAll("body").style.display = "block";
+}

@@ -183,3 +183,15 @@ bold2.style.opacity = "1";
 if (window.location.hash === '#gdpr') {
     openGDPR();
   }
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3500);
+}
+
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.querySelector("header").style.display = "block";
+    document.querySelectorAll("body").style.display = "block";
+}

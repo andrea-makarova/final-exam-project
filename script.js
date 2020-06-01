@@ -253,4 +253,17 @@ function openUdalosti() {
 
 if (window.location.hash === '#main3') {
     openUdalosti();
-  }
+  };
+
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3500);
+}
+
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.querySelector("header").style.display = "block";
+    document.querySelectorAll("body").style.display = "block";
+}

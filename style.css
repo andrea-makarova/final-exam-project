@@ -1,5 +1,10 @@
 @import url(//db.onlinewebfonts.com/c/c7bd3702dde6277020585b7d79feea5c?family=Selfie);
-@font-face {font-family: "Selfie"; src: url("//db.onlinewebfonts.com/t/c7bd3702dde6277020585b7d79feea5c.eot"); src: url("//db.onlinewebfonts.com/t/c7bd3702dde6277020585b7d79feea5c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c7bd3702dde6277020585b7d79feea5c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c7bd3702dde6277020585b7d79feea5c.woff") format("woff"), url("//db.onlinewebfonts.com/t/c7bd3702dde6277020585b7d79feea5c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c7bd3702dde6277020585b7d79feea5c.svg#Selfie") format("svg"); }
+
+@font-face {
+    font-family: "Selfie";
+    src: url("//db.onlinewebfonts.com/t/c7bd3702dde6277020585b7d79feea5c.eot");
+    src: url("//db.onlinewebfonts.com/t/c7bd3702dde6277020585b7d79feea5c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c7bd3702dde6277020585b7d79feea5c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c7bd3702dde6277020585b7d79feea5c.woff") format("woff"), url("//db.onlinewebfonts.com/t/c7bd3702dde6277020585b7d79feea5c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c7bd3702dde6277020585b7d79feea5c.svg#Selfie") format("svg");
+}
 
 
 
@@ -39,15 +44,10 @@ img.cover {
     position: absolute;
     top: 7px;
     left: 5%;
-    width: 40px;
+    width: 35px;
+    height: auto;
 }
 
-.wrapper {
-
-    width: 20%;
- margin-left: 40%;
-    transform: translateY(10%);
-}
 
 
 
@@ -65,7 +65,7 @@ img.cover {
 
 }
 
-#Layer_4{
+#Layer_4 {
     width: 100%;
     padding-bottom: 5%;
     cursor: pointer;
@@ -684,6 +684,7 @@ h1.title {
 
 button {
     cursor: pointer;
+    background: none;
 }
 
 button:hover {
@@ -954,7 +955,8 @@ a img.image-template {
 #main3 {
     display: none;
     margin-bottom: 10%;
-    margin-left: 3%; }
+    margin-left: 3%;
+}
 
 .mySlides3 h2 {
     color: black;
@@ -1070,7 +1072,13 @@ a img.image-template {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    line-height: 50px;
 
+}
+
+.cover-title-pc img {
+    width: 180px;
+    margin-bottom: 0%;
 }
 
 img.logo1 {
@@ -1098,7 +1106,7 @@ img.logo1 {
 }
 
 .menu-web {
-    width: 30px;
+    width: 35px;
     position: fixed;
     top: 48%;
     left: 1%;
@@ -1111,7 +1119,7 @@ img.logo1 {
 }
 
 .mail-web {
-    width: 30px;
+    width: 35px;
     position: fixed;
     top: 48%;
 
@@ -1156,8 +1164,21 @@ div.nav-inside {
     }
 
     .cover-container,
-    .navigation,
     .ham {
+        display: none;
+    }
+
+    .navigation {
+        background: none;
+        left: auto;
+        right: 1%;
+        top: 1%;
+        width: 40px;
+        position: absolute;
+
+    }
+
+    .navigation .green {
         display: none;
     }
 
@@ -1254,6 +1275,10 @@ div.nav-inside {
 
     .grid-container3 {
         margin-top: 0%;
+    }
+
+    .none {
+        display: none;
     }
 }
 
@@ -1539,11 +1564,43 @@ div.nav-inside {
         max-height: 250px;
 
     }
-.mySlides3 h2 {
 
-    margin-left: 5%;
+    .mySlides3 h2 {
+
+        margin-left: 5%;
+
+    }
+
+    video {
+        margin-top: 5%;
+    }
 
 }
 
+video {
+    width: 90%;
+    margin-left: 5%;
+    border: none;
+}
 
+#loader {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 50;
+    background-color: white;
+}
+
+#loader .wrapper {
+    width: 150px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.actual {
+    display: block;
 }
