@@ -3,6 +3,7 @@ const menuWeb = document.querySelector(".menu-web")
 const close = document.querySelector(".close")
 const navigation = document.querySelector(".nav");
 
+
 const link1 = document.querySelector(".link1");
 const plus1 = document.querySelector(".plus1");
 const minus1 = document.querySelector(".minus1");
@@ -28,6 +29,33 @@ const plus5 = document.querySelector(".plus5");
 const minus5 = document.querySelector(".minus5");
 const smallNav5 = document.querySelector(".small-nav-5");
 
+//en nav
+
+const link1en = document.querySelector(".link1en");
+const plus1en = document.querySelector(".plus1en");
+const minus1en = document.querySelector(".minus1en");
+const smallNav1en = document.querySelector(".small-nav-1en");
+
+const link2en = document.querySelector(".link2en");
+const plus2en = document.querySelector(".plus2en");
+const minus2en = document.querySelector(".minus2en");
+const smallNav2en = document.querySelector(".small-nav-2en");
+
+const link3en = document.querySelector(".link3en");
+const plus3en = document.querySelector(".plus3en");
+const minus3en = document.querySelector(".minus3en");
+const smallNav3en = document.querySelector(".small-nav-3en");
+
+const link4en = document.querySelector(".link4en");
+const plus4en = document.querySelector(".plus4en");
+const minus4en = document.querySelector(".minus4en");
+const smallNav4en = document.querySelector(".small-nav-4en");
+
+const link5en = document.querySelector(".link5en");
+const plus5en = document.querySelector(".plus5en");
+const minus5en = document.querySelector(".minus5en");
+const smallNav5en = document.querySelector(".small-nav-5en");
+
 menu.addEventListener("click", openNav);
 menuWeb.addEventListener("click", openNav);
 
@@ -50,6 +78,35 @@ function closeNav() {
         navigation.style.display = "none";
 
 };
+
+const en = document.querySelector(".en");
+const sk = document.querySelector(".sk");
+const english = document.querySelector(".english");
+const slovak = document.querySelector(".slovak");
+
+en.addEventListener("click", openEnNav);
+
+function openEnNav() {
+        english.style.display = "block";
+         slovak.style.display = "none";
+        en.style.fontWeight = "600";
+    sk.style.fontWeight = "300";
+
+
+};
+
+sk.addEventListener("click", openSkNav);
+
+function openSkNav() {
+        english.style.display = "none";
+         slovak.style.display = "block";
+        en.style.fontWeight = "300";
+    sk.style.fontWeight = "600";
+
+
+};
+
+
 //navigation functions
 
 link1.addEventListener("click", openNav1);
@@ -136,6 +193,97 @@ function openNav5() {
         smallNav5.style.display = "block";
          minus5.style.display = "inline";
         plus5.style.display = "none";
+
+    }
+
+};
+
+//en navigation functions
+
+link1en.addEventListener("click", openNav1en);
+
+function openNav1en() {
+    if (smallNav1en.style.display === "block") {
+        smallNav1en.style.display = "none";
+         minus1en.style.display = "none";
+        plus1en.style.display = "inline";
+
+    } else {
+        smallNav1en.style.display = "block";
+         minus1en.style.display = "inline";
+        plus1en.style.display = "none";
+
+    }
+
+};
+
+
+
+link2en.addEventListener("click", openNav2en);
+
+function openNav2en() {
+    if (smallNav2en.style.display === "block") {
+        smallNav2en.style.display = "none";
+         minus2en.style.display = "none";
+        plus2en.style.display = "inline";
+
+    } else {
+        smallNav2en.style.display = "block";
+         minus2en.style.display = "inline";
+        plus2en.style.display = "none";
+
+    }
+
+};
+
+
+link3en.addEventListener("click", openNav3en);
+
+function openNav3en() {
+    if (smallNav3en.style.display === "block") {
+        smallNav3en.style.display = "none";
+         minus3en.style.display = "none";
+        plus3en.style.display = "inline";
+
+    } else {
+        smallNav3en.style.display = "block";
+         minus3en.style.display = "inline";
+        plus3en.style.display = "none";
+
+    }
+
+};
+
+link4en.addEventListener("click", openNav4en);
+
+function openNav4en() {
+    if (smallNav4en.style.display === "block") {
+        smallNav4en.style.display = "none";
+         minus4en.style.display = "none";
+        plus4en.style.display = "inline";
+
+    } else {
+        smallNav4en.style.display = "block";
+         minus4en.style.display = "inline";
+        plus4en.style.display = "none";
+
+    }
+
+};
+
+
+link5en.addEventListener("click", openNav5en);
+
+function openNav5en() {
+    if (smallNav5en.style.display === "block") {
+        smallNav5en.style.display = "none";
+         minus5en.style.display = "none";
+        plus5en.style.display = "inline";
+
+    } else {
+        smallNav5en.style.display = "block";
+         minus5en.style.display = "inline";
+        plus5en.style.display = "none";
 
     }
 
