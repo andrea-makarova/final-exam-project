@@ -1577,9 +1577,17 @@ div.nav-inside {
 
 }
 
-iframe {
-    width: 90%;
-    margin-left: 5%;
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 90%;
     border: none;
 }
 
