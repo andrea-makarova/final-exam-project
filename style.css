@@ -643,6 +643,7 @@ h1.title {
     color: #556E37;
     font-size: 2em;
     background-color: #F7F7F7;
+    letter-spacing: 0px;
 }
 
 .button {
