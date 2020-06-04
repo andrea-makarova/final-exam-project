@@ -31,16 +31,20 @@ a:hover {
     opacity: 0.8;
 }
 
+h1 {
+    letter-spacing: 0px;
+}
+
 /*images*/
 
 img.cover-mobile,
 img.cover {
     width: 100%;
-
 }
 
 
-.logo, .logo-green {
+.logo,
+.logo-green {
     position: absolute;
     top: 7px;
     left: 5%;
@@ -48,7 +52,9 @@ img.cover {
     height: auto;
 }
 
-.logo-green {display: none;}
+.logo-green {
+    display: none;
+}
 
 
 
@@ -391,10 +397,11 @@ nav a.home {
 .odbory a.download {
 
     margin: 0%;
-display: inline;
+    display: inline;
     cursor: pointer;
 
 }
+
 .info {
     grid-area: info-area;
     margin-top: 5%;
@@ -1165,16 +1172,18 @@ div.nav-inside {
 }
 
 .videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
 }
+
 .videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 5%;
-  width: 90%;
-  height: 90%;
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    height: 90%;
     border: none;
 }
 
@@ -1206,10 +1215,13 @@ div.nav-inside {
     cursor: pointer;
 }
 
-.en:hover, .sk:hover {
+.en:hover,
+.sk:hover {
     opacity: 0.8;
 }
-.sk {   font-weight: 600;
+
+.sk {
+    font-weight: 600;
 }
 
 @media (min-width: 600px) {
@@ -1236,7 +1248,9 @@ div.nav-inside {
 
     }
 
-    .logo-green {display: block;}
+    .logo-green {
+        display: block;
+    }
 
     .navigation .green {
         display: none;
