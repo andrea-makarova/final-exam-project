@@ -40,7 +40,7 @@ img.cover {
 }
 
 
-.logo {
+.logo, .logo-green {
     position: absolute;
     top: 7px;
     left: 5%;
@@ -48,6 +48,7 @@ img.cover {
     height: auto;
 }
 
+.logo-green {display: none;}
 
 
 
@@ -623,7 +624,6 @@ h1.title {
     padding-bottom: 1%;
     padding-left: 5%;
     font-family: "Selfie";
-    font-weight: 100;
     color: #556E37;
     font-size: 2em;
     background-color: #F7F7F7;
@@ -1225,6 +1225,8 @@ div.nav-inside {
 
     }
 
+    .logo-green {display: block;}
+
     .navigation .green {
         display: none;
     }
@@ -1292,7 +1294,7 @@ div.nav-inside {
 
 
     h1.title {
-        padding-left: 18%;
+        padding-left: 18.5%;
     }
 
     nav.all {
