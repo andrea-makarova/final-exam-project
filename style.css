@@ -399,6 +399,7 @@ display: inline;
     grid-area: info-area;
     margin-top: 5%;
     display: none;
+
 }
 
 
@@ -677,6 +678,7 @@ h1.title {
     grid-template-columns: 1fr 1fr;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 5%;
 
 }
 
