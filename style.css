@@ -385,8 +385,16 @@ nav a.home {
     margin: 0%;
     margin-left: 5%;
     cursor: pointer;
+
 }
 
+.odbory a.download {
+
+    margin: 0%;
+display: inline;
+    cursor: pointer;
+
+}
 .info {
     grid-area: info-area;
     margin-top: 5%;
